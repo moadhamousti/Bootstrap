@@ -1,0 +1,209 @@
+/* GOOGLE FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&display=swap');
+
+/* GENERAL STYLES */
+
+body{
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+}
+h1{
+    font-weight: 700;
+}
+
+h3{
+    color: rgb(0,89,251);
+}
+
+h4{
+    font-weight: 600;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding-top: 20px;
+}
+ul li{
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul li a{
+    text-decoration: none;
+    color: #b5b2b2;
+    padding: 20px;
+}
+ul li a:hover{
+    color: hsl(189, 89%, 58%);
+}
+
+/* MAIN PAGE STYLE  */
+
+.main{
+    background-image: url("../images/2.png");
+    background-size:  100% 93.6%;
+    background-repeat: no-repeat;
+}
+.fixed-top{
+    background-color: rgb(0,89,251)!important;
+    max-height: 3.5rem !important;
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.nav-link{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #f9f2f2 !important;
+    text-transform: uppercase;
+    padding-right: 2rem;
+}
+.navbar-nav.m-lg-auto {
+	padding-bottom: 1rem;
+    padding-left: 6rem;
+    text-align: right;
+    column-gap: 4rem;
+}
+
+.nav-link:hover{
+    border-bottom: 1px solid #f9f2f2;
+}
+
+/* MAIN PAGE BUTTON   */
+
+.btn-primary{
+    background-color: rgb(0,89,251);
+    border: rgb(0,89,251);
+    padding: 1rem 3rem;
+}
+.btn-primary:hover{
+    background-color: #f9f2f2;
+    color: #34d6f3;
+    border: #34d6f3!important;
+}
+.btn-secondary{
+    background-color: #f9f2f2;
+    color: rgb(0,89,251);
+    border: none;
+}
+.btn-secondary:hover{
+    background-color: #34d6f3;
+    border: #f9f2f2 !important;
+}
+
+/* ABOUT PAGE STYLES  */
+
+
+.about-img{
+    border: 4px solid rgb(0,89,251);
+   
+}
+.progress-bar{
+    background-color: rgb(0,89,251);
+    color: #f9f2f2;
+}
+
+/* SKILLS PAGE STYLES  */
+
+#skills{
+    background-color: #f9f2f2;
+}
+.card{
+    background-color: #f9f2f2;
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+}
+.card:hover{
+    background-color: rgb(0,89,251);
+    color: #f9f2f2;
+}
+
+/* PROJECTS PAGE STYLES */
+
+.content{
+    position: relative;
+    width: 90%;max-width: 400px;
+    margin: auto;
+    overflow: hidden;
+}
+.content .content-overlay{
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    height: 99%;width: 100%;
+    left: 0;top: 0;bottom: 0;right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s
+}
+.content:hover 
+.content-overlay{opacity: 1}
+
+.content-image{
+    width: 100%;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px
+}
+.content-details{
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;width: 100%;top: 50%;left: 50%;
+    opacity: 0;-webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s
+}
+.content:hover .content-details{
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+}
+.content-details h3{
+    color: #fff;font-weight: 500;
+    letter-spacing: 0.15em;margin-bottom: 0.5em;
+    text-transform: uppercase
+}
+.content-details p{
+    color: #fff;
+    font-size: 0.8em
+}
+.fadeIn-bottom{top: 80%}
+
+/* CONTACT PAGE STYLES */
+
+
+.contact-wrapper{
+    background-color: rgb(0,89,251);
+}
+
+
+
+/* FOOTER STYLES */
+
+.footer__link,
+.footer__social-link{
+  color: white;
+  transition: .5s;
+}
+
+.footer__link:hover,
+.footer__social-link:hover{
+  color: rgb(31, 248, 248);
+}
+
+.footer__social{
+  display: flex;
+  column-gap: 2rem;
+}
+
+.footer__social-link{
+  font-size: 1.8rem;
+}
