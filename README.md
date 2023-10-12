@@ -5,7 +5,7 @@
 - Landing Page.
 - About Me.
 - Skills.
-- Projects.
+- Projects. 
 - Contact.
 
 ### Screen Shoots 📷 :
